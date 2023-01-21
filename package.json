@@ -1,0 +1,19 @@
+{
+  "name": "sapi-js-sdk",
+  "version": "1.0.0",
+  "description": "SAPI Javascript Browser SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "author": "Sapi Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-intercept": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
