@@ -1,13 +1,5 @@
-declare const init: ({ sapiId, tokenOwner, platform, requireAuth, }: {
-    sapiId: string;
-    tokenOwner?: string | undefined;
-    platform?: string | undefined;
-    requireAuth?: boolean | undefined;
-}) => void;
-declare const authToken: (auth: {
-    type: "captcha";
-    value: string;
-}) => Promise<void>;
-declare const isTokenValid: () => boolean;
+declare const init: any;
+declare const authToken: any;
+declare const isTokenValid: any;
 export { init, authToken, isTokenValid };
 //# sourceMappingURL=index.d.ts.map
