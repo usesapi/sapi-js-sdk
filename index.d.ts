@@ -2,7 +2,7 @@ declare const init: ({ sapiId, tokenOwner, platform, requireAuth, }: {
     sapiId: string;
     tokenOwner?: string | undefined;
     platform?: string | undefined;
-    requireAuth: boolean;
+    requireAuth?: boolean | undefined;
 }) => void;
 declare const authToken: (auth: {
     type: "captcha";

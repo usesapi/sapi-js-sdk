@@ -8,6 +8,5 @@
     "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
     "declaration": true,
     "declarationMap": true,
-    "outDir": "./dist",
   }
 }

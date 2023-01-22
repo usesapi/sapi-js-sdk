@@ -92,12 +92,11 @@ class Sapi {
             if (!localData) {
                 return false;
             }
-            console.log(localData.expiresAt, new Date().toISOString());
             return (localData.expiresAt >
                 new Date(Date.now() + this.expirationThresholdMs).toISOString());
         };
     }
-    init({ sapiId, tokenOwner = "anonymous", platform = "app", requireAuth, }) {
+    init({ sapiId, tokenOwner = "anonymous", platform = "app", requireAuth = false, }) {
         this.sapiId = sapiId;
         this.proxyHost = `${sapiId}.${SAPI_PROXY_HOST}`;
         this.tokenOwner = tokenOwner;
