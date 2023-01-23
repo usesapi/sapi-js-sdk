@@ -1,5 +1,5 @@
 {
-  "name": "sapi-js-sdk",
+  "name": "@sapi/js-sdk",
   "version": "1.0.0",
   "description": "SAPI Javascript Browser SDK",
   "main": "index.js",
